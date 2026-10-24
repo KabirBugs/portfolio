@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="3DaySolve connects businesses with skilled students for focused projects delivered in one to three days." />
+    <meta property="og:title" content="3DaySolve — One Problem. One Student. Three Days." />
+    <meta property="og:description" content="Affordable, focused project support from students ready to solve real business problems." />
+    <title>3DaySolve — Small Problems. Big Opportunities.</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2313221D'/%3E%3Cpath d='M17 35c7-15 15-20 29-20l-5 9c-9 0-14 4-18 11h18l-5 9H17v-9Z' fill='%23D8FF55'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="page-loader" class="page-loader" aria-label="Loading 3DaySolve">
+      <div class="loader-mark">3<span>DS</span></div>
+      <div class="loader-bar"><span></span></div>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="3DaySolve home">
+        <span class="brand-mark">3</span>
+        <span>Day<span>Solve</span></span>
+      </a>
+      <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#explore">Explore Projects</a>
+        <a href="#categories">Categories</a>
+        <a href="#students">For Students</a>
+        <a href="#businesses">For Businesses</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <div class="nav-actions">
+          <a class="nav-signin" href="#signin">Sign In</a>
+          <a class="button button-small" href="#get-started">Get Started <span>↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="footer-top shell">
+        <div class="footer-brand">
+          <a class="brand brand-light" href="#home"><span class="brand-mark">3</span><span>Day<span>Solve</span></span></a>
+          <p>Small problems. Big opportunities.<br />One problem. One student. Three days.</p>
+        </div>
+        <div class="footer-links">
+          <div><h4>Platform</h4><a href="#how-it-works">How It Works</a><a href="#explore">Explore Projects</a><a href="#categories">Categories</a></div>
+          <div><h4>Join</h4><a href="#student-register">Student Registration</a><a href="#business-register">Business Registration</a><a href="#post-project">Post a Project</a></div>
+          <div><h4>Company</h4><a href="#about">About Us</a><a href="#contact">Contact</a><a href="#feedback">Feedback</a></div>
+          <div><h4>Legal</h4><a href="#privacy">Privacy Policy</a><a href="#terms">Terms & Conditions</a><a href="#commission">Commission Policy</a></div>
+        </div>
+      </div>
+      <div class="shell" style="padding-bottom:32px"><div id="newsletter-mount"></div></div>
+      <div class="footer-bottom shell"><span>© <span id="footer-year"></span> 3DaySolve. Built for focused progress.</span><span>Platform commission: <strong>15%</strong> of completed project value.</span></div>
+    </footer>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

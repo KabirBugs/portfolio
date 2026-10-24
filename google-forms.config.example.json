@@ -1,0 +1,19 @@
+{
+  "studentRegistration": "[INSERT GOOGLE FORM URL]",
+  "businessRegistration": "[INSERT GOOGLE FORM URL]",
+  "projectSubmissions": "[INSERT GOOGLE FORM URL]",
+  "studentApplications": "[INSERT GOOGLE FORM URL]",
+  "contactMessages": "[INSERT GOOGLE FORM URL]",
+  "feedback": "[INSERT GOOGLE FORM URL]",
+  "newsletterSubscriptions": "[INSERT GOOGLE FORM URL]",
+  "fieldMappings": {
+    "studentRegistration": {},
+    "businessRegistration": {},
+    "projectSubmissions": {},
+    "studentApplications": {},
+    "contactMessages": {},
+    "feedback": {},
+    "newsletterSubscriptions": {}
+  },
+  "notes": "Do not add passwords, authentication tokens, private keys, or other account secrets to this configuration. Verify URLs and field mappings before enabling delivery."
+}
